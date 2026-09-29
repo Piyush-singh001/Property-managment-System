@@ -1,0 +1,32 @@
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+*.env
+!*.env.example
+
+# Node & Frontend
+node_modules/
+dist/
+.DS_Store
+*.local
+
+# Database & Local Uploads
+*.db
+*.sqlite3
+backend/pms.db
+pms.db
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# IDE & OS
+.idea/
+.vscode/
+.gemini/
+*.log
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
